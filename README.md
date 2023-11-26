@@ -11,8 +11,18 @@ just go into config.json and replace trigger_hotkey with any virtual key code, y
 - If you you're a coder, you can use the source, if not please proceed to use the exe.
 - Start Exe, Start Valorant, go to ingame settings and use purple outline.
 - While being in ingame settings go to keybinds and add K as a second shoot keybind.
-- By default it shift is the hotkey, if you have always enabled turn on, use f10 instead.
+- By default  shift is the hotkey, if you have always enabled turn on, use f10 instead.
 - Should work
 
 # Preview
+[![Watch the video](https://cdn-cf-east.streamable.com/image/dizst6_first.jpg?Expires=1701277944784&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=m7tTmO3eSM1uds8b-9OpFJm5x~2Jb0t2WfSKwFOLz0q5ofl7bGJ6ww5wBfx44~mtZxFjc9PsUeCV6JtXz5OFFCfutKuTWUQbkuqsMGVbI2bMQNsEuoYhBKig2O0MJNCnPWgpWHEpUoB3GikaHcYCvG~I-0y7p5PP2DvwgN~Px5IgZs84VPx-qyuFav8c255sm41rjg87aiRNQiObxaaBN3EKpuYFmBVB8~jb863EhJzRIPXkYJEgZRIbeBHJGEDtM-wH4gjSyuzuB4KgeX3Q0KOsOZwH6xkknwOm0SwXHnYiFzfPQRvbfV1l89XPRZu7LvXLAhD3BdFLTdh5ktr57A)](https://streamable.com/dizst6)
 
+# FAQ
+Can I get banned using this?
+- there is always a risk but its very unlikely, i'd recommend compiling the source by yourself though and maybe adding vmp to it
+
+How to make it faster?
+- this is already pretty fast but if you'd wish to make it faster you can add DXCAM to it and maybe multithreading, these are the only ways I can think of to make it even faster, additionally this in any native language would be a lot faster already.
+
+Why release this?
+- why not
