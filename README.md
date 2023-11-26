@@ -26,3 +26,6 @@ How to make it faster?
 
 Why release this?
 - why not
+
+
+PS: Exe is compiled with nuitka!!!
