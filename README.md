@@ -1,5 +1,5 @@
 # Fast-Valorant-Triggerbot
-Fastest Available Undetected Triggerbot for Valorant
+By far the fastest available python triggerbot out there, no joke its speed is pretty crazy.
 
 # About it
 Reaction time is equivalent to your refresh rate, during testing I measured around 2-10ms reaction time,
