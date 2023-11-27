@@ -16,9 +16,9 @@ just go into config.json and replace trigger_hotkey with any virtual key code, y
 
 - Additionally you can change the color tolerance, I recommend 20-70, also a delay can be added, => config.json
 
-  Exe is not provided in the github repo but is still downloadable through unknowncheats
-  https://www.unknowncheats.me/forum/valorant/612762-fastest-python-valorant-triggerbot-fr.html
-  https://www.unknowncheats.me/forum/downloads.php?do=file&id=42887
+Exe is not provided in the github repo but is still downloadable through unknowncheats
+https://www.unknowncheats.me/forum/valorant/612762-fastest-python-valorant-triggerbot-fr.html
+https://www.unknowncheats.me/forum/downloads.php?do=file&id=42887
 
 # Preview
 [![Watch the video](https://cdn-cf-east.streamable.com/image/dizst6_first.jpg?Expires=1701277944784&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=m7tTmO3eSM1uds8b-9OpFJm5x~2Jb0t2WfSKwFOLz0q5ofl7bGJ6ww5wBfx44~mtZxFjc9PsUeCV6JtXz5OFFCfutKuTWUQbkuqsMGVbI2bMQNsEuoYhBKig2O0MJNCnPWgpWHEpUoB3GikaHcYCvG~I-0y7p5PP2DvwgN~Px5IgZs84VPx-qyuFav8c255sm41rjg87aiRNQiObxaaBN3EKpuYFmBVB8~jb863EhJzRIPXkYJEgZRIbeBHJGEDtM-wH4gjSyuzuB4KgeX3Q0KOsOZwH6xkknwOm0SwXHnYiFzfPQRvbfV1l89XPRZu7LvXLAhD3BdFLTdh5ktr57A)](https://streamable.com/dizst6)
