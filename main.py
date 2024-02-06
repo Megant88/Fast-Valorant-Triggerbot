@@ -1,9 +1,9 @@
 
 import json, time, threading, keyboard,sys
-import win32api
+import win32.win32api as win32api 
 from ctypes import WinDLL
 import numpy as np
-from mss import mss as mss_module
+import dxcam
 
 
 def exiting():
@@ -34,7 +34,7 @@ GRAB_ZONE = (
 
 class triggerbot:
     def __init__(self):
-        self.sct = mss_module()
+        self.sct = dxcam.create(output_color='BGRA', output_idx=0)
         self.triggerbot = False
         self.triggerbot_toggle = True
         self.exit_program = False 
@@ -61,10 +61,12 @@ class triggerbot:
 
     def searcherino(self):
         img = np.array(self.sct.grab(GRAB_ZONE))
+        while img.any() == None:
+            img = np.array(self.sct.grab(GRAB_ZONE))
 
-
-        pmap = np.array(img)
-        pixels = pmap.reshape(-1, 4)
+        
+        pixels = img.reshape(-1, 4)
+        
         color_mask = (
             (pixels[:, 0] > self.R -  self.color_tolerance) & (pixels[:, 0] < self.R +  self.color_tolerance) &
             (pixels[:, 1] > self.G -  self.color_tolerance) & (pixels[:, 1] < self.G +  self.color_tolerance) &
